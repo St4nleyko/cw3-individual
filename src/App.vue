@@ -1,17 +1,21 @@
 <template>
+
   <div id="app">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" >
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <oldApp />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import oldApp from './components/oldappascomponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    oldApp
   }
 }
 </script>
