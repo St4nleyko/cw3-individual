@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint",
     "addgit": "git add dist -f",
     "addcommit": "git commit -m 'updating dist via subtree'",
-    "push": "git subtree push --prefix dist origin github-runner"
+    "push": "git subtree push --prefix dist origin gh-pages"
 
   },
   "dependencies": {
