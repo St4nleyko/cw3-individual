@@ -9,7 +9,6 @@
     "addgit": "git add dist -f",
     "addcommit": "git commit -m 'updating dist via subtree'",
     "push": "git subtree push --prefix dist origin gh-pages"
-
   },
   "dependencies": {
     "core-js": "^3.8.3",
